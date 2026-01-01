@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apertura Pro Cam - Privacy Policy</title>
+    <title>Privacy Policy - Apertura Pro Cam</title>
     <style>
         * {
             margin: 0;
@@ -30,95 +30,92 @@
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
         }
         
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #f0f0f0;
+        .back-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 30px;
         }
         
-        .logo {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 18px;
-            margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
+        .back-link:hover {
+            text-decoration: underline;
         }
         
         h1 {
-            font-size: 28px;
+            font-size: 32px;
             color: #1a1a2e;
             margin-bottom: 8px;
         }
         
-        .subtitle {
-            color: #666;
-            font-size: 16px;
+        .last-updated {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 30px;
         }
         
         h2 {
             font-size: 20px;
             color: #1a1a2e;
             margin: 30px 0 15px;
-            padding-left: 15px;
-            border-left: 4px solid #667eea;
+        }
+        
+        h3 {
+            font-size: 16px;
+            color: #444;
+            margin: 20px 0 10px;
         }
         
         p {
-            margin-bottom: 15px;
             color: #555;
+            margin-bottom: 15px;
         }
         
         ul {
-            margin: 15px 0;
-            padding-left: 25px;
+            color: #555;
+            margin-left: 20px;
+            margin-bottom: 15px;
         }
         
         li {
-            margin-bottom: 10px;
-            color: #555;
+            margin-bottom: 8px;
         }
         
         .highlight {
-            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-            padding: 20px;
-            border-radius: 12px;
+            background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            border-radius: 0 12px 12px 0;
             margin: 20px 0;
         }
         
-        .highlight p {
-            margin-bottom: 0;
+        .highlight strong {
+            color: #1a1a2e;
+        }
+        
+        .section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .section h2 {
+            margin-top: 0;
+        }
+        
+        a {
+            color: #667eea;
         }
         
         .footer {
             text-align: center;
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 2px solid #f0f0f0;
-            color: #888;
-            font-size: 14px;
-        }
-        
-        .contact {
-            background: #f8f9fa;
             padding: 20px;
-            border-radius: 12px;
-            margin-top: 20px;
-        }
-        
-        .contact a {
-            color: #667eea;
-            text-decoration: none;
-        }
-        
-        .contact a:hover {
-            text-decoration: underline;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
         }
         
         @media (max-width: 600px) {
@@ -127,11 +124,7 @@
             }
             
             h1 {
-                font-size: 24px;
-            }
-            
-            h2 {
-                font-size: 18px;
+                font-size: 26px;
             }
         }
     </style>
@@ -139,60 +132,104 @@
 <body>
     <div class="container">
         <div class="card">
-            <div class="header">
-                <div class="logo">📷</div>
-                <h1>Apertura Pro Cam</h1>
-                <p class="subtitle">Privacy Policy</p>
+            <a href="index.html" class="back-link">← Back to Support</a>
+            
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: January 2025</p>
+            
+            <div class="section">
+                <h2>Overview</h2>
+                <p>Apertura Pro Cam ("we", "our", or "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our camera application.</p>
             </div>
             
-            <p><strong>Last Updated:</strong> December 22, 2024</p>
-            
-            <div class="highlight">
-                <p><strong>Summary:</strong> Apertura Pro Cam is designed with privacy as a priority. We do not collect, store, or transmit any personal data. All photos and videos remain on your device.</p>
+            <div class="section">
+                <h2>Information We Collect</h2>
+                
+                <h3>Photos and Videos</h3>
+                <p>All photos and videos you capture are stored locally on your device in your Photo Library. We do not upload, transmit, or have access to your photos or videos.</p>
+                
+                <h3>Location Data</h3>
+                <p>With your explicit permission, Apertura Pro Cam may access your device's location for the following purposes:</p>
+                <ul>
+                    <li><strong>Photo Geotagging:</strong> Embedding GPS coordinates in photo metadata (EXIF data) so you can see where photos were taken</li>
+                    <li><strong>Photo Spots Discovery:</strong> Finding nearby photography locations, viewpoints, and points of interest</li>
+                    <li><strong>Sunrise/Sunset Times:</strong> Calculating accurate golden hour times for your current location</li>
+                </ul>
+                
+                <div class="highlight">
+                    <strong>Important:</strong> Location data is processed entirely on your device. We do not collect, store, or transmit your location to any servers. You can disable location access at any time in your device's Settings.
+                </div>
+                
+                <h3>Camera and Microphone</h3>
+                <p>The App requires access to your camera to capture photos and videos, and microphone access to record audio with videos. This data is processed locally and saved to your Photo Library.</p>
+                
+                <h3>Subscription Information</h3>
+                <p>If you subscribe to Apertura Pro, your purchase is processed entirely by Apple through the App Store. We do not have access to your payment information, Apple ID, or personal account details.</p>
             </div>
             
-            <h2>Information We Collect</h2>
-            <p>Apertura Pro Cam does <strong>not</strong> collect any personal information. Specifically:</p>
-            <ul>
-                <li><strong>No personal data collection:</strong> We do not collect names, email addresses, or any identifying information.</li>
-                <li><strong>No usage analytics:</strong> We do not track how you use the app.</li>
-                <li><strong>No photo/video access:</strong> Your photos and videos are saved directly to your device's photo library and are never uploaded to any server.</li>
-                <li><strong>No location tracking:</strong> If you enable geotagging, location data is embedded directly into your photos on-device and is never transmitted to us.</li>
-            </ul>
+            <div class="section">
+                <h2>Information We Do NOT Collect</h2>
+                <ul>
+                    <li>Personal identification information (name, email, address)</li>
+                    <li>Your photos or videos</li>
+                    <li>Your precise location history</li>
+                    <li>Device identifiers for tracking purposes</li>
+                    <li>Usage analytics or behavioral data</li>
+                    <li>Any data for advertising purposes</li>
+                </ul>
+            </div>
             
-            <h2>Camera and Photo Library Access</h2>
-            <p>Apertura Pro Cam requires access to:</p>
-            <ul>
-                <li><strong>Camera:</strong> Required to capture photos and videos. Camera data is processed entirely on your device.</li>
-                <li><strong>Photo Library:</strong> Required to save your captured photos and videos. We only write to your library; we do not read or access existing photos.</li>
-                <li><strong>Microphone:</strong> Optional, used only for recording audio with video. Audio is processed on-device only.</li>
-                <li><strong>Location:</strong> Optional, used only for geotagging photos if you enable this feature. Location data stays on your device.</li>
-            </ul>
+            <div class="section">
+                <h2>Third-Party Services</h2>
+                <p>The App uses the following third-party services:</p>
+                <ul>
+                    <li><strong>Apple MapKit:</strong> Used for the Photo Spots feature to search for nearby points of interest. MapKit queries are processed by Apple according to their privacy policy.</li>
+                    <li><strong>Apple StoreKit:</strong> Used to process in-app purchases and subscriptions through the App Store.</li>
+                </ul>
+                <p>We do not use any third-party analytics, advertising, or tracking services.</p>
+            </div>
             
-            <h2>Subscription Information</h2>
-            <p>Apertura Pro Cam offers optional subscription purchases through Apple's App Store. All payment processing is handled entirely by Apple. We do not have access to your payment information, credit card details, or Apple ID.</p>
+            <div class="section">
+                <h2>Data Storage</h2>
+                <p>All app data is stored locally on your device:</p>
+                <ul>
+                    <li>Photos and videos: Saved to your Photo Library</li>
+                    <li>App settings and preferences: Stored in local app storage</li>
+                    <li>Custom photo spots: Stored locally on your device</li>
+                    <li>Favorite locations: Stored locally on your device</li>
+                </ul>
+                <p>When you delete the app, all locally stored app data is removed. Photos and videos in your Photo Library are not affected.</p>
+            </div>
             
-            <h2>Third-Party Services</h2>
-            <p>Apertura Pro Cam does not integrate with any third-party analytics, advertising, or tracking services. The app functions entirely offline and does not require an internet connection.</p>
+            <div class="section">
+                <h2>Your Choices</h2>
+                <p>You have control over your data:</p>
+                <ul>
+                    <li><strong>Location Access:</strong> You can enable or disable location access in Settings → Privacy → Location Services → Apertura</li>
+                    <li><strong>Photo Geotagging:</strong> You can disable geotagging within the app's settings</li>
+                    <li><strong>Camera/Microphone:</strong> You can manage these permissions in your device's Settings</li>
+                </ul>
+            </div>
             
-            <h2>Data Storage</h2>
-            <p>All app settings and preferences are stored locally on your device using iOS's standard storage mechanisms. This data is not accessible to us and is not transmitted anywhere.</p>
+            <div class="section">
+                <h2>Children's Privacy</h2>
+                <p>Apertura Pro Cam does not knowingly collect any personal information from children under the age of 13. The App does not require any personal information to function.</p>
+            </div>
             
-            <h2>Children's Privacy</h2>
-            <p>Apertura Pro Cam does not collect any personal information from anyone, including children under 13 years of age.</p>
+            <div class="section">
+                <h2>Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+            </div>
             
-            <h2>Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
-            
-            <h2>Contact Us</h2>
-            <div class="contact">
-                <p>If you have any questions about this Privacy Policy or the app, please contact us at:</p>
+            <div class="section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us at:</p>
                 <p><a href="mailto:aperturaprocam@gmail.com">aperturaprocam@gmail.com</a></p>
             </div>
-            
-            <div class="footer">
-                <p>© 2024 Apertura Pro Cam. All rights reserved.</p>
-            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Apertura Pro Cam. All rights reserved.</p>
         </div>
     </div>
 </body>
